@@ -10,3 +10,4 @@ navLinks.forEach(link => link.addEventListener('click', () => {
     console.log('ran');
     document.body.classList.remove('nav-open')
 }))
+

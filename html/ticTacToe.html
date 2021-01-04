@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tic Tac Toe</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/7.0.0/normalize.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.css" integrity="sha256-46qynGAkLSFpVbEBog43gvNhfrOj+BmwXdxFgVK/Kvc=" crossorigin="anonymous" />  
+    <link rel="stylesheet" href="../css/style.css">
+    <link rel="apple-touch-icon" sizes="180x180" href="../css/favicon_io/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="../css/favicon_io/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="../css/favicon_io/favicon-16x16.png">
+    <link rel="manifest" href="../css/favicon_io/site.webmanifest">
+</head>
+<body>
+    <header>
+        <div class="logo">
+            <h1> &lt; Luke Gartland /&gt;</h1>
+            <img src="#logo" alt="">
+        </div>
+        <button class="nav-toggle" aria-label="toggle navigation">
+            <span class="hamburger"></span>
+        </button>
+        <nav class="nav">
+            <ul class="nav__list">
+                <li class="nav__item">
+                    <a href="../index.html" class="nav__link">Home</a>
+                </li>
+                <li class="nav__item">
+                    <a href="../index.html#services" class="nav__link" >Services</a>
+                </li>
+                <li class="nav__item">
+                    <a href="../index.html#about" class="nav__link" >About me</a>
+                </li>
+                <li class="nav__item">
+                    <a href="../index.html#work" class="nav__link" > My Work</a>
+                </li>
+                <li class="nav__item">
+                    <a href="./resume.html" class="nav__link" >Resume</a>
+                </li>
+            </ul>
+        </nav>
+    </header>
+               <!-- Into -->
+        <section class="intro" id="home" >
+            <h1 class="section__title section__title--intro" >
+                Emotional Learning
+                <strong>Memory Game</strong></h1>
+            <p class="section__subtitle section__subtitle--intro">5th Grade level</p>
+            <img src="../img/ticTacToe-start.png" alt="" class="intro__img" >
+        </section>
+
+
+        <!-- describe the project what did i do and why, details and information on incites of the project rather then just the project itself-->
+
+            <div class="portfolio-item-individual">
+                <p>I built and designed this Tic Tac Toe game for SELTrove to use in their social media advertising.  Students and educators can play the game as a fun way to learn about the unique lessons SELTrove offers.  
+                    </p>
+
+                <a href="https://scubaluke.github.io/TicTacToe/">
+                    <video class="portfolio-item-video" controls autoplay loop src="../screenCaptures/TicTacToe.mov"></video>
+                    <!-- <img src="../img/IMG_2890.jpeg" alt=""> -->
+                </a>
+               
+                <p>
+                   This is a single page application that includes single player or multi player options as well as 4 different Social-Emotional Learning question sets to choose from. Users are asked questions from SELTrove's Social-Emotional Learning curriculum that they must answer before each turn on the tic tac toe board.   
+                </p><p>
+                    The questions asked are stored in an array of objects.  This allowed me to easily generate the questions to the user in random order, keeping the game more dynamic. The first key-value pair is the question the second is the answer. This allowed me to use the same array for generating the question in random order, populating the dropdown menu to answer the question and check for the correct answer all with the same array. 
+                </p><p>
+                    The page changes with display none to display flex with a set time out of 20ms to opacity 1 allowing for a smooth transition between displays.  
+                </p>
+
+            </div>
+                <!-- footer -->
+                <footer class="footer">
+                    <a href="mailto:lukegartland@gmail.com" class="footer__link" >Send Luke a message.</a>
+                    <ul class="social-list">
+                        <li class="social-list__item" >
+                            <a class="social-list__link" href="https://github.com/scubaluke">
+                                <i class="fab fa-github-square"></i>
+                            </a>
+                        </li>
+                        <li class="social-list__item" >
+                            <a class="social-list__link" href="https://twitter.com/scubalukemaui">
+                                <i class="fab fa-twitter-square"></i>
+                            </a>
+                        </li>
+                        <li class="social-list__item" >
+                            <a class="social-list__link" href="https://www.facebook.com/luke.gartland">
+                                <i class="fab fa-facebook-square"></i>
+                            </a>
+                        </li>
+                        <li class="social-list__item" >
+                            <a class="social-list__link" href="https://www.linkedin.com/in/luke-gartland-b9222a76/"><i class="fab fa-linkedin"></i></a>
+                        </li>
+    
+                    </ul>
+                </footer>
+    <script src="../js/index.js"></script>
+</body>
+</html>
