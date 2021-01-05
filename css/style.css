@@ -153,8 +153,16 @@ header {
   justify-content: space-between;
   padding: 1em;
 }
-.logo {
+.logo h1 {
   /* max-width: 300px; */
+  font-size: 2rem;
+}
+.logo a {
+  text-decoration: none;
+  color: var(--clr-dark);
+}
+.logo:hover {
+  cursor: pointer;
 }
 .nav {
   position: fixed;
